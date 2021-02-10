@@ -1,0 +1,317 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  overflow-x: hidden;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.desktop{display: block;}
+.mobile{display: none;}
+
+.downloadButtonIos {
+	background-color:hsl(171, 66%, 44%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+}
+.downloadButtonIos:hover {
+	background-color:hsl(171, 66%, 30%);
+}
+.downloadButtonIos:active {
+	position:relative;
+	top:1px;
+}
+
+.downloadButtonMac {
+	background-color:hsl(233, 100%, 69%);
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px grey;
+}
+.downloadButtonMac:hover {
+	background-color:hsl(233, 100%, 60%);
+}
+.downloadButtonMac:active {
+	position:relative;
+	top:1px;
+}
+
+.top-container h1, h3{
+  margin-top: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+.paragrph-content {
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 430px;
+  width: 600px;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+}
+
+.top-container .downloadButtons {
+  position: relative;
+  width: 600px;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.top-container .downloadButtonIos {;
+  margin-right: 10px;
+  margin-bottom: 30px
+}
+
+.top-container .downloadButtonMac {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.second-container h5{
+  font-weight: 600;
+}
+
+
+.summary-points{
+  margin-top: 170px;
+}
+
+.third-container h3{
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.third-container p {
+  margin-bottom: 80px;
+}
+
+.third-container #top-title{
+  margin-top: 220px;
+}
+
+.fourth-container h5 {
+  font-weight: 600;
+}
+
+.fourth-container .row {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.fourth-container .column-content {
+  margin: 50px;
+}
+
+.fourth-container .icons {
+  margin-bottom: 20px;
+}
+
+.company-logos {
+  margin: 150px;
+}
+
+.bottom-btns {
+  position: relative;
+  width: 800px;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-btn1 {
+  margin-left: 450px;
+  margin-bottom: 30px;
+  width: 250px;
+}
+
+.bottom-btn2 {
+  margin-left: 350px;
+  margin-right: 0;
+  width: 250px;
+}
+
+.footer-container {
+  background-color: hsl(201, 11%, 95%);
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+
+.footer-container a:hover {
+  color: hsl(201, 11%, 66%);
+}
+
+.links {
+  margin-top: 70px;
+}
+
+.first-social {
+  margin-left: 300px;
+}
+
+.social-links {
+  margin-left: 20px;
+}
+
+#logo {
+  margin-top: 220px;
+  margin-left: 70px;
+}
+
+#computer-img {
+  margin-top: 120px;
+  margin-left: -80px;
+}
+
+#devices {
+  margin-left: 280px;
+}
+
+#footer-logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  height: 70px;
+}
+
+
+@media (max-width: 600px) {
+
+  .desktop{display: none;}
+  .mobile{display: block;}
+
+  .top-container .downloadButtons {
+    margin-left: 130px;
+  }
+
+  .top-container .downloadButtonIos {
+    margin-left: 0px;
+  }
+  .top-container h1{
+    margin-left: 0px;
+  }
+
+  .top-container h3{
+    margin-left: 0px;
+  }
+
+  .top-container p {
+    margin-left: 0px;
+    width: 450px;
+  }
+
+  .second-container p, h5 {
+    width: 450px;
+    text-align: center;
+  }
+
+  .summary-points {
+    margin-top: 150px;
+  }
+
+  .third-container #top-title{
+    margin-top: 80px;
+  }
+
+
+  .third-container p{
+    width: 450px;
+    margin-left: 10px;
+  }
+
+  .fourth-container .row {
+    margin-left: 5px;
+  }
+
+  .fourth-container .column-content {
+    margin: 10px;
+  }
+
+  .fourth-container .last-p-tag{
+    width: 450px;
+    margin-left: 10px;
+  }
+
+  .company-logos {
+    margin: 70px;
+  }
+
+
+  .bottom-btns {
+    margin-left: 0px;
+  }
+
+  .bottom-btn1 {
+    margin-left: -300px;
+  }
+
+  .bottom-btn2 {
+    margin-left: -300px;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .first-social {
+    margin-left: 0px;
+  }
+
+  .links {
+    margin-top: 30px;
+  }
+
+  .bottom-links {
+    margin-bottom: 50px;
+  }
+
+  #logo {
+    margin-left: 0px;
+  }
+
+  #computer-img {
+    width: 400px;
+    margin-left: 40px;
+  }
+
+  #devices {
+    margin-left: 0;
+    width: 450px;
+  }
+
+  #footer-logo {
+    margin-left: 0;
+  }
+}
